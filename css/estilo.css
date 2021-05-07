@@ -1,0 +1,66 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 50%;
+    height: auto;
+}
+
+li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 4;
+}
+
+nav,
+article,
+aside,
+footer {
+    background-color: white;
+    padding: 1%;
+}
+
+nav {
+    height: 50px;
+    background-color: wheat;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    padding: 0%;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
